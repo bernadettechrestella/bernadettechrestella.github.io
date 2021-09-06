@@ -1,26 +1,18 @@
 <template>
     <div class="homepage">
         <v-responsive :aspect-ratio="16/9">
-        <!-- <v-container style="height: 100%"> -->
-            <NavBar />
-            <HelloWorld />
-            <Footer />
-        <!-- </v-container> -->
+            <Isi />
         </v-responsive>
   </div>  
 </template>
 
 <script>
-import NavBar from '@/components/NavBar.vue'
-import Footer from '@/components/Footer.vue'
-import HelloWorld from '@/components/HelloWorld.vue'
+import Isi from '@/components/Isi.vue'
 
 export default {
     name: 'HomePage',
     components: {
-        NavBar,
-        HelloWorld,
-        Footer
+        Isi,
     }
 }
 </script>
